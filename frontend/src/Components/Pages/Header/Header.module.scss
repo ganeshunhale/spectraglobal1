@@ -1,0 +1,99 @@
+
+
+.navBarSection {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #010110;
+    // width: 100vw;
+
+    .headerMainSection {
+        width: 93vw;
+        margin: 0 auto;
+        z-index: 1;
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+
+        .menubtn {
+            @media screen and (max-width: 768px) {
+                border: none;
+                &:focus{
+                    box-shadow: none;
+                }
+                span{
+                    background-image: url('../../../Assets/Img/menu.png');
+                }
+            }
+        }
+
+        .navLink {
+            color: #ffffff !important;
+            margin: 0 1rem;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        // box-shadow: 0px 3px 8px rgb(0 0 0 / 15%);
+        .brandSection {
+
+            .responsiveimg {
+                width: 15rem;
+                object-fit: cover;
+                @media screen and (max-width: 768px) {
+                    width: 12rem;
+                }
+            }
+        }
+
+        // .mobileMenuBtnSection {
+        //     display: none;
+
+        //     @media screen and (max-width: 768px) {
+
+        //         display: var(--flex_display);
+
+        //         .mobileMenuOpen {
+        //             border: none;
+
+        //             &:focus {
+        //                 box-shadow: unset;
+        //             }
+        //         }
+        //     }
+
+        // }
+        .bodySection {
+
+            align-items: center;
+
+            .headerNavLink {
+                font-size: 1.2rem;
+                @media screen and (max-width: 768px) {
+                    font-size: 1rem; 
+                 }
+            }
+
+            .iconSection {
+                font-size: 1.6rem;
+            }
+        }
+
+       
+
+    }
+}
+@media screen and (max-width: 768px){
+    .Header_offCanvasNavbar__M5It6 {
+        width: 66vw !important;
+        background: #0b4d6f;
+        border-radius: 3rem 0 0 3rem;
+    }
+    .offcanvas {
+        position: fixed;
+        bottom: 0;
+        background: #0b4d6f;
+        
+        
+    }
+            }

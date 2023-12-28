@@ -1,0 +1,138 @@
+.footerMainSection {
+    // background: #010110;
+    position: sticky;
+
+    .footerSection {
+        width: 100%;
+        display: flex;
+        padding: 8rem 0 4rem;
+        justify-content: space-evenly;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+            width: 90%;
+            margin-left: 2rem;
+        }
+
+        .footerContent {
+            // background-color: black;
+            // text-align: left;
+            color: #FCFCFC;
+
+            @media screen and (max-width:768px) {
+                &:not(:last-child) {
+                    margin-bottom: 0.7rem;
+                }
+                &:last-child{
+                    margin-top: 1.3rem;
+                }
+            }
+
+            .footerInfo {
+                display: flex;
+
+                .icon {
+                    font-size: 1.3rem;
+                    padding-right: 1rem;
+                    line-height: 1;
+                }
+
+            }
+
+            // .footerHeader {
+            //     font-weight: 400;
+            //     font-size: 2.528rem;
+
+            // }
+
+            .footerLogo {
+
+                line-height: 1;
+                margin-bottom: 1.5rem;
+
+                img {
+                    @media screen and (max-width:768px) {
+                        width: 14rem;
+                    }
+                }
+            }
+
+            .socialIcon {
+                font-size: 1.7rem;
+                padding-right: 2rem;
+                color: #dddddd;
+            }
+
+            .quicklinksHeading,
+            .connectWithUs {
+                font-weight: 400;
+                font-size: 1.875rem;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .textContent {
+                font-weight: 300;
+                font-size: 1.2rem;
+                color: #dddddd;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 1rem;
+                }
+            }
+
+            .connectWithUs {
+                color: #84E2ED;
+
+            }
+
+            .ContectCircle {
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+
+                @media screen and (max-width: 768px) {
+                    justify-content: unset;
+
+                }
+
+                .wouldcircle {
+                    border-radius: 50%;
+                    background: #b7b7b9;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    color: #fff;
+                    font-weight: 400;
+                    padding: 3.5rem 2rem;
+                    // box-shadow: rgb(183, 183, 185) 3px 2px 9px -1px, rgb(183, 183, 185) 0px 6px 6px -5px;
+                    transition: transform 0.7s ease-in-out;
+                    transform: rotate(39deg);
+
+                    &:hover {
+                        transform: rotate(0deg);
+                        background: #1F729C;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 1rem;
+                        transform: rotate(0deg);
+                        background: #1F729C;
+                        padding: 3rem 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .footerCopyright {
+        background: #4C4B50;
+        text-align: center;
+        padding: 1rem 0;
+        color: #fff;
+        @media screen and (max-width: 768px) {
+            padding: 1rem;
+        }
+    }
+}

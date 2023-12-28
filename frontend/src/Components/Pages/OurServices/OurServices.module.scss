@@ -1,0 +1,205 @@
+.ourServicesMainSection {
+    overflow-x: hidden;
+
+    .ourServicesInfoSection {
+        width: 90vw;
+        margin: 0 auto;
+
+        .ourServcesMainHeading {
+            color: #FCFCFC;
+            font-size: 5rem;
+            font-weight: 500;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .fundAdvisory {
+            padding: 4rem 0rem;
+
+            .fundAdvisoryContent {
+                font-size: 1.2rem;
+                // padding: 0 2rem 0 0;/
+                margin: auto auto;
+                text-align: justify;
+                @media screen and (max-width: 768px) {
+                    font-size: 1rem; 
+                 }
+                .fundAdvisoryHeading {
+                    color: #FCFCFC;
+                    font-weight: 400;
+                    font-size: 3.125rem;
+
+                }
+
+                p {
+                    max-width: 96%;
+                    color: #FCFCFC;
+                    margin-bottom: 1.8rem;
+                    line-height: 1.8;
+                    // font-size: 1.2rem;
+                }
+            }
+
+            .fundAdvisoryImg {
+                // padding: 3rem 0 3rem 3rem;
+                height: 33rem;
+                width: 29.813rem;
+                margin: auto auto;
+                // min-width: 0vw;
+                // max-height: 50vh;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 2rem;
+                    object-fit: cover;
+                }
+            }
+        }
+
+    }
+
+    .fundAdvisoryHeading,
+    .assetsManagtHeading {
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .assetsManagementSection {
+
+        background: #fff;
+        padding-bottom: 2rem;
+
+        .assetsManagement {
+            padding: 5rem 0;
+
+            .assetsManagementContent {
+                width: 66%;
+                margin: 0 auto;
+                text-align: center;
+
+                .assetsManagtHeading {
+                    color: #0D0D0D;
+                    font-size: 4rem;
+                    @media screen and (max-width: 480px) {
+                        font-size: 3rem; 
+                     }
+                }
+
+                .spectraGlobaloffer {
+                    // font-size: 1.1rem;
+                    color: rgb(101, 111, 128);
+                    font-size: 1.2rem;
+                    @media screen and (max-width: 768px) {
+                        font-size: 1rem; 
+                     }
+                }
+            }
+        }
+
+        .fundManagement {
+            display: flex;
+            justify-content: end;
+
+            .fundManagementContentSection {
+                // text-align: right;
+                padding-right: 6rem;
+                padding-left: 0 !important;
+                @media screen and (min-width: 1024px){
+                   padding-right: 2rem;
+                   padding-left: 1rem !important;
+                }
+                @media screen and (max-width: 480px){
+padding-right: 3rem;
+                }
+            }
+        }
+
+
+        .fundManagementMainSection {
+            width: 90vw;
+            margin: 0 auto;
+            padding: 3rem 0;
+
+            .fundManagementSection {
+                align-items: center;
+                background: rgb(76 75 80 / 5%);
+                border-radius: 20px;
+                width: 72.7vw;
+                color: #0D0D0D;
+
+                @media screen and (min-width: 1024px){
+                    width: 82vw;
+                }
+
+                .fundManagementContentSection {
+                    color: #0D0D0D;
+                    padding-left: 6rem;
+
+                    @media screen and (min-width: 1024px){
+                        padding-left: 2rem;
+
+                    }
+                    @media screen and (max-width: 480px){
+                        padding-left: 3rem;
+
+                    }
+
+                    .fundManagementHeading {
+                        font-size: 2.375rem;
+                        font-weight: 500;
+                        margin-bottom: 2rem;
+                        // text-align: center;
+                        max-width: 75%;
+                        letter-spacing: 2px;
+                        @media screen and  (max-width: 480px) {
+                            
+                              font-size: 1.5rem;
+                              font-weight: 500;
+                              margin-bottom: 1rem;
+                              /* text-align: center; */
+                              max-width: 100%;
+                              letter-spacing: 1px;
+                            
+                          }
+                    }
+
+                    .fundManagementContent {
+                        line-height: 1.7;
+                        text-align: justify;
+                        // max-width: 63%;
+                        // margin: 0 auto;
+                        font-size: 1.2rem;
+                        @media screen and (max-width: 768px) {
+                            font-size: 1rem; 
+                         }
+                    }
+
+                }
+
+                .fundManagementImg {
+                    display: flex;
+                    padding: 0;
+                   
+
+                    &:nth-child(odd) {
+                        justify-content: start;
+                    }
+
+                    &:nth-child(even) {
+                        justify-content: end;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        // box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

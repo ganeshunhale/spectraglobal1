@@ -1,0 +1,50 @@
+{
+    "fontfamily": {
+        "pri_fontfamily": "Roboto",
+        "sec_fontfamily": "Roboto Mono"
+    },
+    "imageSection": {
+        "mainlogo": "spectra-global-logo.png"
+        
+    },
+    "homeIcons":{
+        "home_aboutBg_img":"AboutusSection.png",
+        "home_gateway_icon": "gateway-to-your-need.png",
+        "home_allow_icon": "allow-you-to-pick-asset.png",
+        "home_identifying_icon": "identifying-and-guiding.png",
+        "home_cost_icon": "cost-efficient.png",
+        "home_offiring_icon": "offiring-flexibility.png",
+        "home_product_icon": "creating-niche-product.png",
+        "home_providing_icon": "providing-a-robust.png"
+    },
+    "aboutImgSection":{
+        "about_spectra_img":"welcome-to-image.png",
+        "about_cust_img":"bespoke-and-cus.svg",
+        "about_browser_img": "segregated-investment.svg",
+        "about_risk_img": "rms.svg",
+        "about_teamWork_img": "board-and-team.svg",
+        "about_monitor_img": "detailed-reporting.svg",
+        "about_publicService_img": "access-to-network.svg",
+        "about_advisor_img":"flexibility-in-app.svg",
+        "about_hassleFree_img": "hassle-free.svg"
+    },
+
+    "ourServicesImg":{
+        "ourserv_spectra_img":"our-services.jpeg",
+        "ourserv_fundadvisory_img": "fund-advisory.jpeg",
+        "ourserv_investment_img": "investment-planning.png",
+        "ourserv_portfolio_img": "portfolio-managment.png",
+        "ourserv_payChart_img": "pay-chart.png",
+        "ourserv_riskmanagement_img": "risk-management.png",
+        "ourserv_performancerep_img": "performance-reporting.png",
+        "ourserv_balancing_img": "balancing.png"
+
+    },
+    "ourTeamSection":{
+        "ourteamMemeber1_img":"ritesh-abbi-pic.jpg",
+        "ourteamMemeber2_img":"dave.jpg",
+        "ourteamMemeber3_img":"mithilesh.jpg",
+        "ourteamMemeber4_img":"ankit.jpg"
+    }
+    
+}

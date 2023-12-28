@@ -1,0 +1,120 @@
+.aboutMainSection {
+    width: 90vw;
+    margin: 0 auto;
+
+    .aboutUsMainHeading {
+        color: #FCFCFC;
+        font-size: 5rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .welcomeToSpectra {
+        padding: 4rem 0rem ;
+
+        .welcmContent {
+            font-size: 1.2rem;
+            // padding: 0 2rem 0 0;
+            margin: auto auto;
+            text-align: justify;
+@media screen and (max-width: 768px) {
+   font-size: 1rem; 
+}
+            p {
+                max-width: 96%;
+                color: rgba(255, 255, 255, 1);
+                margin-bottom: 1.8rem;
+                line-height: 1.8;
+            }
+        }
+
+        .welcmImg {
+            // padding: 3rem 0 3rem 3rem;
+            height: 33rem;
+                width: 29.813rem;
+                margin: auto auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 2rem;
+                // object-fit: fill;
+            }
+        }
+    }
+
+    .whySpectraWealth {
+        // background-color: #fff;
+        padding-top: 5rem  ;
+
+        .whySpectraHeading {
+            color: #FCFCFC;
+            font-size: 4rem;
+            font-weight: 500;
+            text-align: center;
+            padding-bottom: 5.5rem;
+        }
+
+        .whySpectraWealthItems {
+            // width: 69%;
+            // margin: 0 auto;
+            width: 100%;
+            .whySpectraItemsSection{
+                display: flex;
+                justify-content: center;
+                .whySpectraSingleItem {
+                    text-align: center;
+                    padding: 2rem;
+                    margin-bottom: 1.6rem;
+                    // margin-right: 1rem;
+                    // max-width: 23%;
+                    border-radius: 1rem;
+                    height: 18rem;
+                    // border: 2px solid #131516;
+                    color: #FCFCFC;
+                    // max-width: 98vw;
+                    @media screen and (max-width: 480px) {
+                        font-size: 1rem; 
+                        width: 100%;
+                        margin: 0.5rem;
+                     }
+                    @media screen and (min-width: 480px) {
+                       max-width: 60vw;
+                     }
+   
+                    
+                    &:nth-child(4){
+                        img{
+                            width: 90px;
+                        }
+                    }
+                    &:hover {
+                        box-shadow: rgba(255, 255, 255, 0.25) 0px 3px 14px;
+                        // border: 2px solid #1f729c;
+                        background: #1F729C;
+                        
+                    }
+    
+    
+                    img {
+                        height: 67px;
+                        width: 67px;
+    
+                       
+    
+                        // &:hover{
+                        //    filter: url('../../../Assets/Img/balancing.jpg');
+                        // }
+                    }
+    
+                    .whySpectraItemContent {
+                        font-size: 1.171rem;
+                        padding-top: 1.7rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}

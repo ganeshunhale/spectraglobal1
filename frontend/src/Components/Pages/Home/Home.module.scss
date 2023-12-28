@@ -1,0 +1,446 @@
+.homeSection {
+    background: #010110;
+
+    .homeTopSection {
+        // position: relative;
+        // height: 93vh;
+        height: 86vh;
+
+        @media screen and (max-width: 768px) {
+            height: auto;
+        }
+        // .gradient {
+
+        //     height: 100%;
+        //     position: absolute;
+        //     width: 100%;
+        //     left: 0;
+        //     // right: 0;
+        //     top: 1rem;
+        //     background: #131516;
+        //     z-index: -1;
+        // }
+        .tsParticles {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+
+        .globalContent {
+            // position: absolute;
+            // font-size: 5rem;
+            // top: 50%;
+            // width: 100%;
+            // text-align: center;
+            // margin: 0 auto;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // height: 100%;
+            // // width: 50%;
+
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            max-width: 100%;
+            // height: 89%;
+            z-index: 5;
+            // height: 49vh;
+    width: 84vw;
+            color: #fafafa;
+
+            // .globalInvestment {
+            //     position: relative;
+            //     font-size: 4.5rem;
+            //     color: #fff;
+            // }
+
+            // .areYouTired {
+            //     text-align: center;
+
+            // .globalInvestment,
+            // .repetitive {
+            //     color: #fafafa;
+            // }
+           
+            .globalInvestment {
+                animation: text1;
+            }
+
+            .repetitive {
+                animation: text2;
+            }
+
+            .bespokeAndCurates {
+                animation: text3;
+            }
+
+            .robustCompliance {
+                animation: text5;
+            }
+
+            .globalInvestment,
+            .repetitive,
+            .bespokeAndCurates,
+            .robustCompliance {
+                overflow: hidden;
+                white-space: nowrap;
+                display: inline-flex;
+                position: relative;
+                animation-duration: 6s;
+                animation-timing-function: steps(20, end);
+                animation-iteration-count: infinite;
+                font-size: 2.4rem;
+                max-width: 100%;
+                // font-weight: bold;
+
+                // padding-left: 5px;
+                // &::after {
+                //     content: "/";
+                //     position: absolute;
+                //     right: 0;
+                //     // animation: caret infinite;
+                //     animation-duration: 8s;
+                //     animation-timing-function: steps(1, end);
+                //     color: rgb(235, 22, 22);
+                //     font-size: 5.4rem;
+                //     bottom: -1rem;
+                // }
+            }
+
+            // }
+
+            @keyframes text1 {
+
+                0%,
+                50%,
+                100% {
+                    width: 0;
+                }
+
+                10%,
+                40% {
+                    // width: 17em;
+                    width: 100%;
+                }
+            }
+
+            @keyframes text2 {
+
+                0%,
+                50%,
+                100% {
+                    width: 0;
+                }
+
+                60%,
+                90% {
+                    // width: 21.2em;
+                    width: 100%;
+                    // display: inline-flex;
+                }
+            }
+
+            @keyframes text3 {
+
+                0%,
+                50%,
+                100% {
+                    width: 0;
+                }
+
+                10%,
+                40% {
+                    // width: 17em;
+                    width: 100%;
+                }
+            }
+
+            @keyframes text4 {
+
+                0%,
+                50%,
+                100% {
+                    width: 0;
+                }
+
+                60%,
+                90% {
+                    // width: 21.2em;
+                    width: 100%;
+                    // width: 48rem;
+                    // display: inline-flex;
+                }
+            }
+
+            img {
+                width: 55rem;
+            }
+        }
+    }
+
+    .gradient1 {
+        background: linear-gradient(180deg, rgb(19 21 22), rgba(51, 51, 56, 0));
+        height: 34%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .spectraInfo {
+        // background-color: #080809;
+
+        .cardSection {
+            display: flex;
+            justify-content: center;
+            padding-top: 6rem;
+            padding-bottom: 4rem;
+            @media screen and (max-width: 768px) {
+                padding-top: 0;
+            }
+
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+
+            .card {
+                // background-color: red;
+                position: relative;
+                border-radius: 1rem;
+                width: 21.581rem;
+                margin: 1rem;
+                height: 18.469rem;
+
+                @media screen and (max-width: 768px) {
+                    width: auto;
+                }
+
+                .cardtext {
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding: 3rem;
+                    font-size: 1.2rem;
+                    color: white;
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 1rem;
+                    }
+
+                }
+
+            }
+
+            .card1,
+            .card3,
+            .card2 {
+                border-left: 2px rgb(31, 114, 156) solid;
+                border-right: 2px rgb(31, 114, 156) solid;
+                background: #010110;
+            }
+
+            .card1,
+            .card3 {
+                border-bottom: 2px rgb(31, 114, 156) solid;
+                border-image: linear-gradient(to bottom, #131516, rgb(31, 114, 156)) 1;
+            }
+
+            .card2 {
+                border-top: 2px rgb(31, 114, 156) solid;
+                border-image: linear-gradient(to top, #131516, rgb(31, 114, 156)) 1;
+
+            }
+
+            // .card3{
+            //     border-bottom: 2px rgb(31, 114, 156) solid ;
+            //     border-left: 2px rgb(31, 114, 156) solid ;
+            //     border-right: 2px rgb(31, 114, 156) solid ;
+            // }
+        }
+
+        .aboutSection {
+            .aboutSectionBg {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    // z-index: -1;
+                    height: 100%;
+                }
+
+                .aboutContent {
+                    max-width: 43%;
+                    margin: 0 auto;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+
+                    // bottom: 20%;
+                    @media screen and (min-width: 1024px) {
+                        max-width: 60%;
+                    }
+
+                    .aboutHeading {
+                        font-size: 5rem;
+                        margin-bottom: 2rem;
+                        text-shadow: 1px 3px 4px rgba(111, 105, 105, 0.7019607843);
+                        font-weight: 500;
+                    }
+
+                    .aboutContentInfo {
+                        text-align: justify;
+                        font-size: 1.2rem;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .whoweAreSection {
+            padding-top: 5rem;
+            // padding-bottom: 5rem;
+            margin-bottom: 1.6rem;
+
+            .whoweAreHeader {
+                text-align: center;
+                margin-bottom: 2rem;
+                font-weight: 500;
+                color: #1F729C;
+                font-size: 5rem;
+            }
+
+            .rowof3,
+            .rowof1 {
+                display: flex;
+                justify-content: center;
+                @media screen and (max-width: 768px) {
+                    display: block;
+                }
+            }
+
+            // .rowof1 {
+            //     margin-bottom: 5rem;
+            // }
+
+            .whoWeAreSqures {
+                width: 17.441rem;
+                height: 16rem;
+                background-color: rgba(242, 242, 242, 1);
+                margin: 1rem;
+                padding: 2.3rem 1.188rem;
+                // display: flex;
+                // justify-content: space-evenly;
+                // flex-direction: column;
+                position: sticky;
+
+                // .circle {
+                //     width: 50px;
+                //     height: 50px;
+                //     // border-radius: 50%;
+                //     // background-color: #D9D9D9;
+                // }
+                @media screen and (max-width: 768px) {
+                    width: auto;
+                }
+                p {
+                    // font-weight: 400;
+                    font-size: 1.171rem;
+                    // text-align: start;
+                    margin-top: 1.2rem;
+                }
+
+            }
+
+            .bluesqares {
+                background: #1F729C;
+                color: white;
+
+                // .circle {
+                //     background-color: #ffffff;
+                // }
+            }
+        }
+    }
+
+    .ourTeamSection {
+        width: 100%;
+        border-radius: 0px 0px 97px 97px;
+        background-color: #fff;
+        padding: 9rem 0;
+        position: sticky;
+
+        .headerwrapper {
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            padding-bottom: 7rem;
+
+            .ourTeamHeading {
+                color: #4C4B50;
+                font-weight: 500;
+                max-width: 12%;
+                // padding-left: 5rem;
+                font-size: 5rem;
+                line-height: 1;
+                margin: 0 auto;
+            }
+
+        }
+
+        .wouldYouLinkSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .wouldYouLinkContent {
+                color: #0D0D0D;
+                font-weight: 400;
+                font-size: 3.835rem;
+                width: 29.875rem;
+                line-height: 1;
+            }
+
+            .ContectCircle {
+                text-decoration: none;
+
+                .wouldcircle {
+                    border-radius: 50%;
+                    background: #b7b7b9;
+                    font-size: 2.625rem;
+                    text-align: center;
+                    color: #fff;
+                    padding: 7rem 4rem;
+                    box-shadow: rgb(183 183 185) 3px 2px 9px -1px, rgb(183 183 185) 0px 6px 6px -5px;
+                    transition: transform .7s ease-in-out;
+                    transform: rotate(39deg);
+
+                    &:hover {
+                        transform: rotate(0deg);
+                        background: #1F729C;
+                    }
+                }
+            }
+
+            // img {
+            //     transition: transform .7s ease-in-out;
+            //   }
+            //   img:hover {
+            //     transform: rotate(30deg);
+            //     background: red;
+            //   }
+        }
+
+    }
+}

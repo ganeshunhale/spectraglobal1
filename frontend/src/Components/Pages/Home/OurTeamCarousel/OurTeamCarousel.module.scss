@@ -1,0 +1,22 @@
+.carousel {
+    // width: 60%;
+    width: 90%;
+    margin-right: 1.9rem;
+    // margin: 0 auto;
+  }
+  
+  .carouselButton {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .carouselImage {
+    width: 97% !important;
+    height: auto;
+    // max-height: 50vh; 
+    object-fit: cover;
+  }

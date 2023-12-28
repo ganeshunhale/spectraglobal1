@@ -1,0 +1,127 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.contactMainSection {
+    background-color: #010110;
+
+
+
+    .ContentNImgWrapper {
+        width: 75vw;
+        margin: 0 auto;
+        padding: 4rem 0;
+        // right: 0;
+        @media screen and (max-width: 1280px){ 
+            width: 94vw;
+        }
+    
+        .welcomeToSpectra {
+            background: transparent;
+            font-size: 1.16rem;
+            text-align: inherit;
+            margin: 1rem;
+            color: #FCFCFC;
+            padding-top: 4rem;
+
+            .Header {
+                font-weight: 500;
+                font-size: 5rem;
+                line-height: 92px;
+                margin-bottom: 2rem;
+                color: #FCFCFC;
+            }
+
+
+            .iconAndHeader {
+                display: flex;
+                // align-items: center;
+                margin: 1.7rem 0;
+
+                .icon {
+                    font-size: 1.6rem;
+                }
+
+                .HeaderAndDescripton {
+                    .ContentText {
+                        margin-bottom: 0;
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+
+        // .gradient {
+        //     background: grey;
+        //     background: linear-gradient(to bottom, grey 0%, #fff 100%);
+        //     filter: blur(10px);
+        //     height: var(--gradient-height);
+        // }
+        .FormMainSection {
+            background-image: radial-gradient(closest-side circle at 43%, #6F2A87, rgb(0 139 207 / 55%), rgb(4 95 140 / 1%));
+            width: 64%;
+            height: 100%;
+            padding: 4rem 0 4rem 4rem;
+            // margin: 0 auto;
+            filter: opacity(0.5);
+            // z-index: 1;
+            position: relative;
+            margin-bottom: 2rem;
+        
+        }
+
+        .FormSection {
+            width: 59%;
+            margin: 0 auto;
+            border-radius: 10px;
+            background: #000;
+            padding: 30px;
+
+            .MuiTextField {
+                margin: 1rem;
+                // color: #FCFCFC !important;
+                // border-color: #FCFCFC !important;
+
+                input {
+                    color: #FCFCFC !important;
+                }
+
+                label {
+                    span {
+                        color: #eb0c0c;
+                    }
+                }
+            }
+
+            .ButtonWrapper {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                .MuiButtonField {
+                    border: 1px solid #FCFCFC !important;
+                    color: #FCFCFC !important;
+                    margin: 1rem;
+                    border-radius: 0.6rem;
+                }
+            }
+        }
+
+
+    }
+}

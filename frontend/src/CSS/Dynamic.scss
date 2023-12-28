@@ -1,0 +1,41 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #1f729c !important;
+}
+
+.slick-prev {
+  left: -37px;
+}
+
+
+.header-nav-link .active {
+  border-bottom: 1px solid #fff;
+}
+a{
+  text-decoration: none;
+}
+
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 1s !important;
+}
+
+
+
+
+// **********************************Header*************************************
+
+.navbar-toggler-icon{
+// background-image: ;
+}
+
+// **********************************connect page*************************************
+
+.MuiInputBase-root fieldset{
+  border: 1px solid white !important; 
+  border-radius: 0.6rem;
+}
+
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+  color: white !important;
+}
+
